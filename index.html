@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body class="body">
+    <div class="topnav">
+        <audio id="sound1">
+            <source src="sound.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="sound2">
+            <source src="thank.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+            function playSound(soundId) {
+                var sound = document.getElementById(soundId);
+                sound.play();
+            }
+        </script>
+
+        <a class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="container"><img onclick="playSound('sound2')" style="justify-content: left;" src="download.jpg" alt="img">
+        <img onmouseover="playSound('sound1')" src="images.png" alt="ig">
+    </div>
+    <p> A meme website is a type of website that is dedicated to collecting, creating, and sharing memes. Memes are humorous images, videos, or text that are typically shared on social media platforms like Twitter, Facebook, and Instagram. A meme website usually features a collection of memes that have been curated by the website's creators or users. These memes can range from popular memes that have already gone viral to new and original memes that have just been created.</p>
+    <p> Many meme websites also allow users to upload their own memes, which can be shared with other users. This creates a community of meme creators and enthusiasts who can collaborate, share feedback, and enjoy each other's content. In addition to memes, some meme websites also offer forums or chat rooms where users can discuss memes and other topics.</p>
+    <p> Meme websites often have a simple and user-friendly layout, with a focus on the visual elements of memes. They may also feature categories or tags that make it easy to search for specific types of memes or topics. Some meme websites may also offer features such as meme generators, where users can create their own memes using pre-existing templates or by uploading their own images and text.</p>
+    
+    <footer style="background: purple;">Hello</footer>
+</body>
+
+</html>
