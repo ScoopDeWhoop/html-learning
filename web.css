@@ -30,15 +30,28 @@
 }
 .container img:first-child {
   float: left;
-  border: 3px dashed chocolate;
+  border: 3px dashed blueviolet;
   height: 200px;
   width: 200px;
 }
 
 .container img:last-child {
   float: right;
-  border: 3px dashed chocolate;
+  border: 3px dashed blueviolet;
   height: 200px;
   width: 200px;
 }
 
+footer {
+  background-color:green;
+  color: greenyellow;
+  padding: 20px;
+  text-align: center;
+}
+.footer.contain {
+  max-width: 960px;
+  margin: 0 auto;
+}
+line{
+  justify-content: left;
+}
